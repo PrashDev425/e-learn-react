@@ -1,9 +1,13 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+
 const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold text-blue-400">
-        E-Learn
-      </h1>
+      <Header />
+      <Home/>
+      <Footer />
     </>
   )
 }
