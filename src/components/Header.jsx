@@ -86,7 +86,7 @@ const Header = () => {
               <span className="absolute -top-2 -right-2 bg-orange-primary text-xs rounded-full w-4 h-4 flex items-center justify-center">0</span>
             </div>
             <button onClick={toggleMobileMenu} className="text-white hover:text-orange-primary transition-colors">
-              <FaBars className="text-xl" />
+              <FaBars className="text-black text-xl" />
             </button>
           </div>
         </div>

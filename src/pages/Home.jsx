@@ -4,8 +4,10 @@ import Stats from "./sections/Home/Stats";
 const Home = () => {
   return (
     <>
-      <Hero />
-      <Stats />
+      <div className="bg-[#01295C]">
+        <Hero />
+        <Stats />
+      </div>
     </>
   );
 };
