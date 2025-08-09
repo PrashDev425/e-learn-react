@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="bg-[#01295C]">
-        <Hero />
+        <Hero /> 
         <Stats />
       </div>
     </>
