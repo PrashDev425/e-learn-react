@@ -4,7 +4,6 @@ const WhyChooseUs = () => {
   return (
     <section className="py-12 md:py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        {/* Section Heading */}
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
             Why Choose Us
@@ -16,9 +15,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        {/* Content Grid */}
         <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-12">
-          {/* Image */}
           <div className="flex-1 order-2 lg:order-1">
             <img
               src="/images/learning-together.png"
@@ -27,7 +24,6 @@ const WhyChooseUs = () => {
             />
           </div>
 
-          {/* Feature Cards */}
           <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 order-1 lg:order-2">
             <div className="bg-blue-primary text-white p-4 md:p-6 rounded-lg">
               <FaBook className="text-xl md:text-2xl mb-4" />

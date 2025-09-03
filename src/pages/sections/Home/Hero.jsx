@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r bg-[#01295C] text-white py-12 md:py-20">
+    <section className="bg-gradient-to-r from-[#1e3a8a] to-[#3b82f6] text-white py-12 md:py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
 
